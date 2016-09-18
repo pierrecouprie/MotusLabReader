@@ -36,8 +36,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showrootpatcherontab" : 0,
-		"showontab" : 0,
+		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-12",
@@ -678,9 +677,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1367.0, 323.0, 628.0, 23.0 ],
+									"patching_rect" : [ 1367.0, 323.0, 666.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 514.0, 639.0, 22.0 ],
+									"presentation_rect" : [ 21.0, 514.0, 678.0, 22.0 ],
 									"style" : "Motus",
 									"text" : "Nathanaëlle Raboisson",
 									"varname" : "performer6"
@@ -696,9 +695,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1367.0, 291.0, 643.0, 22.0 ],
+									"patching_rect" : [ 1367.0, 291.0, 683.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 486.0, 643.0, 22.0 ],
+									"presentation_rect" : [ 21.0, 486.0, 683.0, 22.0 ],
 									"style" : "Motus",
 									"text" : "Jonathan Prager",
 									"varname" : "performer5"
@@ -714,9 +713,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1367.0, 257.0, 753.0, 28.0 ],
+									"patching_rect" : [ 1367.0, 257.0, 808.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 458.0, 693.0, 22.0 ],
+									"presentation_rect" : [ 21.0, 458.0, 742.0, 22.0 ],
 									"style" : "Motus",
 									"text" : "Olivier Lamarche",
 									"varname" : "performer4"
@@ -732,9 +731,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1367.0, 224.0, 792.0, 23.0 ],
+									"patching_rect" : [ 1367.0, 224.0, 851.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 430.0, 710.0, 22.0 ],
+									"presentation_rect" : [ 21.0, 430.0, 763.0, 22.0 ],
 									"style" : "Motus",
 									"text" : "Tomonari Higaki",
 									"varname" : "performer3"
@@ -750,9 +749,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1367.0, 193.0, 722.0, 23.0 ],
+									"patching_rect" : [ 1367.0, 193.0, 772.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 402.0, 682.0, 22.0 ],
+									"presentation_rect" : [ 21.0, 402.0, 729.0, 22.0 ],
 									"style" : "Motus",
 									"text" : "Guillaume Contré",
 									"varname" : "performer2"
@@ -768,9 +767,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1367.0, 158.0, 1089.0, 22.0 ],
+									"patching_rect" : [ 1367.0, 158.0, 1190.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 374.0, 826.0, 22.0 ],
+									"presentation_rect" : [ 21.0, 374.0, 902.0, 22.0 ],
 									"style" : "Motus",
 									"text" : "Eric Broitmann",
 									"varname" : "performer1"
@@ -918,7 +917,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u189002785"
+									"varname" : "u960001521"
 								}
 
 							}
@@ -1777,29 +1776,9 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -1812,14 +1791,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -1835,19 +1809,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1855,31 +1854,6 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -1893,19 +1867,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2471,31 +2470,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -2509,19 +2483,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3577,31 +3576,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -3615,19 +3589,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3635,29 +3634,9 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -3670,14 +3649,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -3693,19 +3667,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3713,31 +3712,6 @@
 							}
 , 							{
 								"name" : "Motus-1-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -3751,19 +3725,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5302,31 +5301,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -5340,19 +5314,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5360,29 +5359,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -5395,14 +5374,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -5418,19 +5392,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5438,31 +5437,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -5476,19 +5450,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6007,31 +6006,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -6045,19 +6019,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6065,29 +6064,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -6100,14 +6079,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -6123,19 +6097,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6143,31 +6142,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -6181,19 +6155,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6712,31 +6711,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -6750,19 +6724,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6770,29 +6769,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -6805,14 +6784,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -6828,19 +6802,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -6848,31 +6847,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -6886,19 +6860,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7417,31 +7416,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -7455,19 +7429,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7475,29 +7474,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -7510,14 +7489,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -7533,19 +7507,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7553,31 +7552,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -7591,19 +7565,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8122,31 +8121,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -8160,19 +8134,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8180,29 +8179,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -8215,14 +8194,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -8238,19 +8212,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8258,31 +8257,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -8296,19 +8270,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8827,31 +8826,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -8865,19 +8839,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8885,29 +8884,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -8920,14 +8899,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -8943,19 +8917,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8963,31 +8962,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -9001,19 +8975,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9532,31 +9531,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -9570,19 +9544,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9590,29 +9589,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -9625,14 +9604,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -9648,19 +9622,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9668,31 +9667,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -9706,19 +9680,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -10237,31 +10236,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -10275,19 +10249,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -10295,29 +10294,9 @@
 															}
 , 															{
 																"name" : "Motus-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"default" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"textjustification" : [ 0 ],
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -10330,14 +10309,9 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"textjustification" : [ 0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 																}
 ,
 																"panel" : 																{
@@ -10353,19 +10327,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -10373,31 +10372,6 @@
 															}
 , 															{
 																"name" : "Motus-1-1",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -10411,19 +10385,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -14116,31 +14115,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -14154,19 +14128,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14174,29 +14173,9 @@
 											}
 , 											{
 												"name" : "Motus-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textjustification" : [ 0 ],
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -14209,14 +14188,9 @@
 														"autogradient" : 0
 													}
 ,
-													"textjustification" : [ 0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"panel" : 												{
@@ -14232,19 +14206,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14252,31 +14251,6 @@
 											}
 , 											{
 												"name" : "Motus-1-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -14290,19 +14264,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -15535,31 +15534,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -15573,19 +15547,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -18385,31 +18384,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -18423,19 +18397,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -21260,31 +21259,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -21298,19 +21272,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -21318,29 +21317,9 @@
 											}
 , 											{
 												"name" : "Motus-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textjustification" : [ 0 ],
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -21353,14 +21332,9 @@
 														"autogradient" : 0
 													}
 ,
-													"textjustification" : [ 0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"panel" : 												{
@@ -21376,19 +21350,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -21396,31 +21395,6 @@
 											}
 , 											{
 												"name" : "Motus-1-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -21434,19 +21408,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -23130,7 +23129,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-149",
-									"knobcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23149,7 +23148,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-151",
-									"knobcolor" : [ 0.67, 0.38, 0.93, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23168,7 +23167,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-157",
-									"knobcolor" : [ 0.49, 0.0, 0.51, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23187,7 +23186,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-161",
-									"knobcolor" : [ 0.54, 0.0, 0.82, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23206,7 +23205,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-163",
-									"knobcolor" : [ 0.4, 0.0, 0.4, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23225,7 +23224,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-166",
-									"knobcolor" : [ 1.0, 0.0, 1.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23244,7 +23243,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-168",
-									"knobcolor" : [ 0.8, 0.3, 0.8, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23263,7 +23262,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-170",
-									"knobcolor" : [ 0.5, 0.0, 1.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23282,7 +23281,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-172",
-									"knobcolor" : [ 0.8, 0.6, 0.5, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23301,7 +23300,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-174",
-									"knobcolor" : [ 0.8, 0.0, 0.2, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23320,7 +23319,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-176",
-									"knobcolor" : [ 0.5, 0.0, 0.03, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23339,7 +23338,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-178",
-									"knobcolor" : [ 0.98, 0.0, 0.53, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23358,7 +23357,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-180",
-									"knobcolor" : [ 1.0, 0.3, 0.2, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23377,7 +23376,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-182",
-									"knobcolor" : [ 0.98, 0.45, 0.4, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23396,7 +23395,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-184",
-									"knobcolor" : [ 0.85, 0.7, 0.49, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23415,7 +23414,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-186",
-									"knobcolor" : [ 0.71, 0.52, 0.53, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23434,7 +23433,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-188",
-									"knobcolor" : [ 0.51, 0.25, 0.09, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23453,7 +23452,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-190",
-									"knobcolor" : [ 0.47, 0.02, 0.05, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23472,7 +23471,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-60",
-									"knobcolor" : [ 0.6, 0.1, 0.1, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23491,7 +23490,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-63",
-									"knobcolor" : [ 0.8, 0.3, 0.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23510,7 +23509,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-66",
-									"knobcolor" : [ 0.95, 0.61, 0.33, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23529,7 +23528,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-69",
-									"knobcolor" : [ 0.68, 0.49, 0.04, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23548,7 +23547,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-71",
-									"knobcolor" : [ 0.8, 0.5, 0.2, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23567,7 +23566,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-73",
-									"knobcolor" : [ 0.99, 0.51, 0.03, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23586,7 +23585,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.587371, 0.587371, 0.587371, 0.6 ],
 									"id" : "obj-77",
-									"knobcolor" : [ 0.99, 0.22, 0.03, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23605,7 +23604,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-80",
-									"knobcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23624,7 +23623,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-82",
-									"knobcolor" : [ 1.0, 0.6, 0.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23643,7 +23642,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-85",
-									"knobcolor" : [ 1.0, 0.84, 0.04, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23662,7 +23661,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-87",
-									"knobcolor" : [ 1.0, 0.4, 0.2, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23681,7 +23680,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-89",
-									"knobcolor" : [ 0.4, 0.4, 1.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23700,7 +23699,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-91",
-									"knobcolor" : [ 0.14, 1.0, 0.58, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23719,7 +23718,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-93",
-									"knobcolor" : [ 0.64, 1.0, 0.29, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23738,7 +23737,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-95",
-									"knobcolor" : [ 0.2, 0.8, 0.1, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23757,7 +23756,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-98",
-									"knobcolor" : [ 0.5, 0.8, 0.1, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23776,7 +23775,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-43",
-									"knobcolor" : [ 0.0, 0.4, 0.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23795,7 +23794,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-45",
-									"knobcolor" : [ 0.07, 0.38, 0.04, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23814,7 +23813,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-48",
-									"knobcolor" : [ 0.0, 0.4, 0.4, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23833,7 +23832,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-50",
-									"knobcolor" : [ 0.11, 0.08, 0.4, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23852,7 +23851,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-52",
-									"knobcolor" : [ 0.3, 0.5, 0.9, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23871,7 +23870,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-54",
-									"knobcolor" : [ 0.33, 0.3, 0.68, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23890,7 +23889,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-56",
-									"knobcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23909,7 +23908,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-58",
-									"knobcolor" : [ 0.0, 0.0, 0.8, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23928,7 +23927,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-33",
-									"knobcolor" : [ 0.56, 0.73, 0.73, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23947,7 +23946,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-35",
-									"knobcolor" : [ 0.33, 1.0, 1.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23966,7 +23965,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-38",
-									"knobcolor" : [ 0.12, 0.49, 1.0, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -23985,7 +23984,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-40",
-									"knobcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -24004,7 +24003,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-29",
-									"knobcolor" : [ 0.45, 0.51, 0.57, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -24023,7 +24022,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-31",
-									"knobcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -24042,7 +24041,7 @@
 									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 									"elementcolor" : [ 0.791413, 0.791413, 0.791413, 0.603922 ],
 									"id" : "obj-26",
-									"knobcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"knobcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"knobshape" : 4,
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -24596,31 +24595,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -24634,19 +24608,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26590,31 +26589,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -26628,19 +26602,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27504,31 +27503,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -27542,19 +27516,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27562,29 +27561,9 @@
 											}
 , 											{
 												"name" : "Motus-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textjustification" : [ 0 ],
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -27597,14 +27576,9 @@
 														"autogradient" : 0
 													}
 ,
-													"textjustification" : [ 0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"panel" : 												{
@@ -27620,19 +27594,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27640,31 +27639,6 @@
 											}
 , 											{
 												"name" : "Motus-1-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -27678,19 +27652,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -29679,31 +29678,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -29717,19 +29691,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -30380,31 +30379,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -30418,19 +30392,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -32804,31 +32803,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -32842,19 +32816,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -32862,29 +32861,9 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -32897,14 +32876,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -32920,19 +32894,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -32940,31 +32939,6 @@
 							}
 , 							{
 								"name" : "Motus-1-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -32978,19 +32952,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35286,31 +35285,6 @@
  ],
 														"styles" : [ 															{
 																"name" : "Motus",
-																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"bgfillcolor" : 																	{
-																		"type" : "color",
-																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-																		"angle" : 269.577728,
-																		"proportion" : 0.39,
-																		"pt1" : [ 0.504951, 0.278261 ],
-																		"pt2" : [ 0.5, 0.95 ],
-																		"autogradient" : 0
-																	}
-,
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
-																"slider" : 																{
-																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-																}
-,
 																"panel" : 																{
 																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"bgfillcolor" : 																	{
@@ -35324,19 +35298,44 @@
 
 																}
 ,
-																"toggle" : 																{
+																"slider" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"textbutton" : 																{
 																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
-																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+																}
+,
+																"umenu" : 																{
+																	"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+																		"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+																		"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+																		"angle" : 269.577728,
+																		"proportion" : 0.39,
+																		"pt1" : [ 0.504951, 0.278261 ],
+																		"pt2" : [ 0.5, 0.95 ],
+																		"autogradient" : 0
+																	}
+,
+																	"fontface" : [ 1 ],
+																	"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																}
+,
+																"toggle" : 																{
+																	"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+																	"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -36643,31 +36642,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -36681,19 +36655,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -37002,31 +37001,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -37040,19 +37014,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -37746,31 +37745,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -37784,19 +37758,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -37804,29 +37803,9 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -37839,14 +37818,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -37862,19 +37836,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -37882,31 +37881,6 @@
 							}
 , 							{
 								"name" : "Motus-1-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -37920,19 +37894,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -38891,31 +38890,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -38929,19 +38903,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -39563,31 +39562,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -39601,19 +39575,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -40040,31 +40039,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -40078,19 +40052,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -40530,31 +40529,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -40568,19 +40542,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41290,31 +41289,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -41328,19 +41302,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41348,29 +41347,9 @@
 											}
 , 											{
 												"name" : "Motus-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textjustification" : [ 0 ],
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -41383,14 +41362,9 @@
 														"autogradient" : 0
 													}
 ,
-													"textjustification" : [ 0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"panel" : 												{
@@ -41406,19 +41380,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41426,31 +41425,6 @@
 											}
 , 											{
 												"name" : "Motus-1-1",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -41464,19 +41438,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42765,31 +42764,6 @@
  ],
 										"styles" : [ 											{
 												"name" : "Motus",
-												"umenu" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"fontface" : [ 1 ],
-													"bgfillcolor" : 													{
-														"type" : "color",
-														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-														"angle" : 269.577728,
-														"proportion" : 0.39,
-														"pt1" : [ 0.504951, 0.278261 ],
-														"pt2" : [ 0.5, 0.95 ],
-														"autogradient" : 0
-													}
-,
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
-												"slider" : 												{
-													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-												}
-,
 												"panel" : 												{
 													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
@@ -42803,19 +42777,44 @@
 
 												}
 ,
-												"toggle" : 												{
+												"slider" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"textbutton" : 												{
 													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
-													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+												}
+,
+												"umenu" : 												{
+													"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+														"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+														"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+														"angle" : 269.577728,
+														"proportion" : 0.39,
+														"pt1" : [ 0.504951, 0.278261 ],
+														"pt2" : [ 0.5, 0.95 ],
+														"autogradient" : 0
+													}
+,
+													"fontface" : [ 1 ],
+													"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+												}
+,
+												"toggle" : 												{
+													"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -44274,31 +44273,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -44312,19 +44286,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -44332,29 +44331,9 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -44367,14 +44346,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -44390,19 +44364,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -44410,31 +44409,6 @@
 							}
 , 							{
 								"name" : "Motus-1-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -44448,19 +44422,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -47195,31 +47194,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -47233,19 +47207,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -47253,29 +47252,9 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -47288,14 +47267,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -47311,19 +47285,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -47331,31 +47330,6 @@
 							}
 , 							{
 								"name" : "Motus-1-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -47369,19 +47343,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -48009,31 +48008,6 @@
  ],
 						"styles" : [ 							{
 								"name" : "Motus",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -48047,19 +48021,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -48067,29 +48066,9 @@
 							}
 , 							{
 								"name" : "Motus-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textjustification" : [ 0 ],
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
@@ -48102,14 +48081,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textjustification" : [ 0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"panel" : 								{
@@ -48125,19 +48099,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -48145,31 +48144,6 @@
 							}
 , 							{
 								"name" : "Motus-1-1",
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "color",
-										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-										"angle" : 269.577728,
-										"proportion" : 0.39,
-										"pt1" : [ 0.504951, 0.278261 ],
-										"pt2" : [ 0.5, 0.95 ],
-										"autogradient" : 0
-									}
-,
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-								}
-,
 								"panel" : 								{
 									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
@@ -48183,19 +48157,44 @@
 
 								}
 ,
-								"toggle" : 								{
+								"slider" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"textbutton" : 								{
 									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+										"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+										"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+										"angle" : 269.577728,
+										"proportion" : 0.39,
+										"pt1" : [ 0.504951, 0.278261 ],
+										"pt2" : [ 0.5, 0.95 ],
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -48355,7 +48354,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 259.917603, 248.0, 29373.226562, 35038.0625 ],
+									"patching_rect" : [ 259.917603, 248.0, 35038.0625, 35038.0625 ],
 									"pic" : "motus.jpg",
 									"presentation" : 1,
 									"presentation_rect" : [ 674.5, 380.0, 123.302628, 147.082413 ]
@@ -48371,7 +48370,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 24.0, 248.0, 170.5, 145.138123 ],
+									"patching_rect" : [ 24.0, 248.0, 170.5, 170.5 ],
 									"pic" : "iremus.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 475.0, 380.0, 170.5, 145.138123 ]
@@ -48486,111 +48485,69 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "iremus.png",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "motus.jpg",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/media",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "files.txt",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Exemple Concerts/Concert #1/Ayako Sato August, blue colored green [2015]",
+				"name" : "files.maxvig.xml",
+				"bootpath" : "C74:/docs/vignettes/core",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "workList.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sync.txt",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Exemple Concerts/Concert #1/Ayako Sato August, blue colored green [2015]",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "timeFormat.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "statFader.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "statsPackValues.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rulerDBFS.png",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "interPlayMovie.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubuDisplayView.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scaleDbLin.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "multicolor.txt",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "table.txt",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "eight.txt",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "image.jpg",
-				"bootpath" : "/Volumes/Disque mou/MotusLab/acousmoniums/Futura-2016",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "acousmoNodes.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "acous-nodePlayer.maxpat",
-				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Apps/MotusLabReader/patchers",
+				"bootpath" : "~/Fichiers/Développement/_GitHub/MotusLabReader/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "image.jpg",
+				"bootpath" : "~/Fichiers/Développement/Max/MotusLab Exemple Concerts/acousmoniums/Futura-2016",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
