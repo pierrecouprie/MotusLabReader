@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 522.0, 278.0, 487.0, 488.0 ],
+		"rect" : [ 522.0, 278.0, 744.0, 521.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-5",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 286.0, 104.0, 117.0, 66.0 ],
+					"style" : "",
+					"text" : "Change the display of Mubu: lines or plain lines"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-3",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 83.0, 104.0, 120.0, 66.0 ],
+					"style" : "",
+					"text" : "Change the display of Mubu: superpose lignes or not"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 72.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -68,7 +98,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 72.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -262,49 +292,12 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Motus",
-				"toggle" : 				{
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
-						"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
-						"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-						"angle" : 269.577714,
-						"proportion" : 0.39,
-						"pt1" : [ 0.504951, 0.278261 ],
-						"pt2" : [ 0.5, 0.95 ],
-						"autogradient" : 0
-					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-				}
-,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -313,8 +306,47 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
+
+				}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+				"slider" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.238168, 0.193585, 0.215291, 1.0 ],
+						"color2" : [ 0.117536, 0.116592, 0.144338, 1.0 ],
+						"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+						"angle" : 269.577728,
+						"proportion" : 0.39,
+						"pt1" : [ 0.504951, 0.278261 ],
+						"pt2" : [ 0.5, 0.95 ],
+						"autogradient" : 0
+					}
+
+				}
+,
+				"toggle" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

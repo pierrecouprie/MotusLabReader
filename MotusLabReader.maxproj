@@ -2,8 +2,8 @@
 	"name" : "MotusLabReader",
 	"version" : 1,
 	"creationdate" : -738156172,
-	"modificationdate" : -738077720,
-	"viewrect" : [ 25.0, 70.0, 234.0, 979.0 ],
+	"modificationdate" : -737666532,
+	"viewrect" : [ 1.0, 45.0, 234.0, 979.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -165,20 +165,16 @@
 		}
 ,
 		"externals" : 		{
-			"mubu.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
 
 		}
 ,
 		"other" : 		{
-			"table.maxref.xml" : 			{
-				"kind" : "reffile"
-			}
-,
 			"files.maxvig.xml" : 			{
 				"kind" : "vignette"
+			}
+,
+			"table.maxref.xml" : 			{
+				"kind" : "reffile"
 			}
 
 		}

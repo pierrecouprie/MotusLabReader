@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 554.0, 79.0, 541.0, 624.0 ],
+		"rect" : [ 554.0, 79.0, 933.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 448.0, 318.5, 170.0, 51.0 ],
+					"style" : "",
+					"text" : "Transform linear values of amplitude to DBFS values (DBU is not used)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -347,19 +361,38 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Motus",
+				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
+					}
+
+				}
+,
+				"slider" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+				}
+,
 				"textbutton" : 				{
-					"fontface" : [ 1 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"fontface" : [ 1 ],
-					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -376,28 +409,9 @@
 				}
 ,
 				"toggle" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"elementcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-				}
-,
-				"panel" : 				{
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39
-					}
-
 				}
 ,
 				"parentstyle" : "",
