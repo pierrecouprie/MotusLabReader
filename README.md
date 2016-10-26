@@ -1,5 +1,5 @@
 # MotusLab Reader
-Version 1.0.7
+Version 1.0.8
 
 MotusLab Reader is a patch to visualise performance recorded with MotusLab Recorder.
 
